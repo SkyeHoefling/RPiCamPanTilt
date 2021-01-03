@@ -1,5 +1,5 @@
 # RPiCamPanTilt
-.NET 5 based Pan-Tilt kit for Raspberry Pi PCA9685.
+.NET 5 based Pan-Tilt Sample App for a Raspberry Pi 4 using the Arducam Pan-Tilt Module (PCA9685).
 
 This is a .NET 5+ implementation of the Arducam PCA9685 pan-tilt camera module. It
 uses the all the C native driver code that was originally found on the official
