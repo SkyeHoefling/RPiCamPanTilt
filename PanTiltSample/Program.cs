@@ -5,16 +5,16 @@ namespace src
 {
     class Program
     {
-        [DllImport(@"./lib/libpantilt.so")]
+        [DllImport(@"../lib/libpantilt.so")]
         public static extern void PCA9685_init(byte address);
 
-        [DllImport(@"./lib/libpantilt.so")]
+        [DllImport(@"../lib/libpantilt.so")]
         public static extern void PCA9685_setPWMFreq(float freq);
 
-        [DllImport(@"./lib/libpantilt.so")]
+        [DllImport(@"../lib/libpantilt.so")]
         public static extern int ServoDegreeIncrease(byte channel, byte step);
 
-        [DllImport(@"./lib/libpantilt.so")]
+        [DllImport(@"../lib/libpantilt.so")]
         public static extern int ServoDegreeDecrease(byte channel, byte step);
 
         static void Main(string[] args)
